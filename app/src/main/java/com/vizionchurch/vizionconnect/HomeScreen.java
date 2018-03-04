@@ -1,10 +1,10 @@
 package com.vizionchurch.vizionconnect;
 
+import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class HomeScreen extends AppCompatActivity {
-
+public class HomeScreen extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
